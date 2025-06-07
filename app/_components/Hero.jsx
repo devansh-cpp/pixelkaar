@@ -84,7 +84,7 @@ function Hero() {
           </div>
       </div>
 
-      <div className='flex sm:flex-row flex-col  gap-3 sm:w-fit  sm:scale-90 scale-100 sm:h-fit h-[120px] px-3 py-2 bg-[rgba(255,255,255,0.2)] absolute sm:right-[40px] right-[36px]   bottom-[70px] sm:top-[200px] rounded-2xl'>
+      <div className='flex sm:flex-row flex-col mx-5  gap-3 sm:w-fit  sm:scale-90 scale-100 sm:h-fit h-[120px] px-3 py-2 bg-[rgba(255,255,255,0.2)] absolute sm:right-[40px] right-[10px]   bottom-[70px] sm:top-[200px] rounded-2xl'>
         <div className="flex items-center space-x-[-12px]">
   {[
     "/avataar1.jpg",
@@ -113,7 +113,7 @@ function Hero() {
       
         <MiniCarousel/>
 
-        <div className='absolute  flex w-fit px-3 py-2  flex-col justify-center sm:hidden sm:w-[212px] h-[120px] bg-[rgba(255,255,255,0.2)] rounded-2xl left-[26px] bottom-[70px]'>
+        <div className='absolute  flex w-fit mx-5 px-3 py-2  flex-col justify-center sm:hidden sm:w-[212px] h-[120px] bg-[rgba(255,255,255,0.2)] rounded-2xl left-[10px] bottom-[70px]'>
           <div className='flex flex-col  text-white text-[15px]'>
             <h1>Over 1000+ Clients</h1>
             <p className='text-neutral-200 text-[12px]'>We shoot everywhere</p>
