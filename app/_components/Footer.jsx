@@ -28,7 +28,7 @@ export default function Footer() {
           transition={{ delay: 0.1 }}
         >
         <div className='w-[350px] sm:w-[300px]'>
-                    <Image
+                    <img
                       src="/logo.png"
                       width={100}
                       height={100}

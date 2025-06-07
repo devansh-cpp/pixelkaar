@@ -20,7 +20,7 @@ function Navbar() {
         <div className='max-w-[1280px] mx-auto flex items-center justify-between bg-[rgba(255,255,255,0.1)] backdrop-blur-md rounded-full px-6 py-3'>
           {/* Logo */}
           <div className='w-[140px] sm:w-[180px]'>
-            <Image
+            <img
               src="/logo.png"
               width={100}
               height={100}
