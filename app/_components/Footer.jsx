@@ -29,7 +29,7 @@ export default function Footer() {
         >
         <div className='w-[350px] sm:w-[300px]'>
                     <Image
-                      src="/logomain.png"
+                      src="/logo.png"
                       width={100}
                       height={100}
                       alt="Pixelkaar Logo"
