@@ -46,7 +46,7 @@ export default function FeaturedWorkSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-5xl font-extrabold mb-10 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent"
+          className="sm:text-5xl text-3xl font-extrabold mb-10 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent"
         >
           Featured Work
         </motion.h2>

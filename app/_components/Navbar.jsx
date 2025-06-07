@@ -22,8 +22,8 @@ function Navbar() {
           <div className='w-[140px] sm:w-[180px]'>
             <Image
               src="/logomain.png"
-              width={180}
-              height={180}
+              width={100}
+              height={100}
               alt="Pixelkaar Logo"
               className='w-full h-auto'
             />

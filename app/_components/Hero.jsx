@@ -52,7 +52,7 @@ function Hero() {
 
       {/* Content */}
       <div className='md:mt-0 mt-64 md:w-2/3 px-10 text-white z-20 drop-shadow-xl flex flex-col md:justify-center  sm:items-start items-center  gap-3'>
-        <p className='md:text-7xl text-4xl text-center sm:text-left uppercase font-bold'>Your Life. Our Lens. <br /> Eternal Stories.</p>
+        <p className='md:text-7xl text-2xl text-center sm:text-left uppercase font-bold'>Your Life. Our Lens. <br /> Eternal Stories.</p>
         <p className='sm:text-2xl text-center sm:text-left'>We don&apos;t just take photos — we capture emotions.</p>
         <button className='bg-white sm:mt-8 text-sm sm:text-lg px-4 py-3 text-black rounded-full w-fit'>
           Explore our works
@@ -84,7 +84,7 @@ function Hero() {
           </div>
       </div>
 
-      <div className='flex sm:flex-row flex-col gap-3 sm:w-fit w-44 sm:h-fit h-[120px] px-3 py-2 bg-[rgba(255,255,255,0.2)] absolute sm:right-[40px]  right-[50px] bottom-[70px] sm:top-[200px] rounded-2xl'>
+      <div className='flex sm:flex-row flex-col  gap-3 sm:w-fit  sm:scale-90 scale-100 sm:h-fit h-[120px] px-3 py-2 bg-[rgba(255,255,255,0.2)] absolute sm:right-[40px] right-[36px]   bottom-[70px] sm:top-[200px] rounded-2xl'>
         <div className="flex items-center space-x-[-12px]">
   {[
     "/avataar1.jpg",
@@ -110,9 +110,10 @@ function Hero() {
 </div>
       </div>
       
+      
         <MiniCarousel/>
 
-        <div className='absolute px-3 py-2 flex flex-col justify-center sm:hidden w-[212px] h-[120px] bg-[rgba(255,255,255,0.2)] rounded-2xl left-[53px] bottom-[70px]'>
+        <div className='absolute  flex w-fit px-3 py-2  flex-col justify-center sm:hidden sm:w-[212px] h-[120px] bg-[rgba(255,255,255,0.2)] rounded-2xl left-[26px] bottom-[70px]'>
           <div className='flex flex-col  text-white text-[15px]'>
             <h1>Over 1000+ Clients</h1>
             <p className='text-neutral-200 text-[12px]'>We shoot everywhere</p>

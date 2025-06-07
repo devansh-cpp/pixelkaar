@@ -27,16 +27,16 @@ export default function Footer() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
         >
-        <div className='w-[400px] sm:w-[300px]'>
+        <div className='w-[350px] sm:w-[300px]'>
                     <Image
                       src="/logomain.png"
-                      width={400}
-                      height={400}
+                      width={100}
+                      height={100}
                       alt="Pixelkaar Logo"
                       className='w-full h-auto'
                     />
                   </div>
-          <p className="text-gray-400 text-lg font-light">
+          <p className="text-gray-400 sm:mt-6 mt-12 text-lg font-light">
             Cinematic storytelling for the bold. Freeze time with flair.
           </p>
         </motion.div>
@@ -82,12 +82,12 @@ export default function Footer() {
           transition={{ delay: 0.3 }}
         >
           <h2 className="text-2xl font-semibold mb-3">Find Us</h2>
-          <div className="rounded-xl overflow-hidden border border-gray-800 shadow-md">
+          <div className="rounded-xl overflow-hidden shadow-md">
             
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.8285569779073!2d82.15419151198019!3d26.781734376628453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a078919654723%3A0x3091c9c3aaa18bc3!2sPIXELKAAR%20Production%20%26%20Studio!5e0!3m2!1sen!2sin!4v1749300730960!5m2!1sen!2sin"
-              width="100%"
-              height="250"
+              width="80%"
+              height="200"
               style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"

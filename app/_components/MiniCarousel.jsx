@@ -25,7 +25,7 @@ export default function MiniCarousel() {
   }, [currentImage])
 
   return (
-    <div className='flex p-4 gap-5 w-[400px] sm:h-[250px] px-3 py-2 bg-[rgba(255,255,255,0.2)] absolute sm:right-[40px] sm:bottom-[250px] right-[45px]  bottom-[200px] rounded-2xl overflow-hidden'>
+    <div className='flex p-4 gap-5 w-[400px] sm:h-[250px] px-3 py-2 bg-[rgba(255,255,255,0.2)] absolute sm:right-[40px] sm:bottom-[250px] scale-90 sm:scale-100  bottom-[200px] rounded-2xl overflow-hidden'>
 
       <div className='w-1/2 px-10 relative'>
         {/* Previous Image Fading Out */}
@@ -39,8 +39,8 @@ export default function MiniCarousel() {
           <Image
             src={imageList[prevImage]}
             alt="Previous Work"
-            width={500}
-            height={500}
+            width={200}
+            height={200}
             className='object-cover w-full h-full rounded-xl'
           />
         </motion.div>

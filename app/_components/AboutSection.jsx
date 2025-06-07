@@ -35,7 +35,7 @@ export default function AboutSection() {
             portraits, I turn real-life emotions into captivating art. 
             <br />
             <br />
-            Based in [City], but always chasing light wherever it leads. Let's
+            Based in [Ayodhya], but always chasing light wherever it leads. Let's
             co-create something unforgettable.
           </p>
         </motion.div>

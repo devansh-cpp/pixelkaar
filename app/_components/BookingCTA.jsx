@@ -12,7 +12,7 @@ export default function BookingCTA() {
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <motion.h2
-          className="text-4xl sm:text-5xl font-bold mb-4"
+          className="text-3xl sm:text-5xl font-bold mb-4"
           initial={{ opacity: 0, y: 30, filter: 'blur(6px)' }}
           whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
           transition={{ duration: 0.8 }}

@@ -60,7 +60,7 @@ export default function ServicesSection() {
         viewport={{ once: true }}
         className="relative z-10 max-w-4xl mx-auto text-center mb-16"
       >
-        <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent">
+        <h2 className="sm:text-5xl text-3xl font-bold mb-4 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent">
           Services Offered
         </h2>
         <p className="text-gray-400 text-lg">

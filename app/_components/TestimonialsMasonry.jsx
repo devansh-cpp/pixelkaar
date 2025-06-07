@@ -50,7 +50,7 @@ export default function Testimonials() {
     <section className="bg-[#0f0f0f] text-white py-16 px-4 sm:px-8 md:px-16">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
-          className="text-4xl font-semibold mb-4"
+          className="sm:text-5xl text-3xl font-semibold mb-4"
           initial={{ opacity: 0, y: -20, filter: 'blur(8px)' }}
           whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
           transition={{ duration: 0.8 }}
