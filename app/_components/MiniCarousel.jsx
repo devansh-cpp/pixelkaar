@@ -25,7 +25,7 @@ export default function MiniCarousel() {
   }, [currentImage])
 
   return (
-    <div className='flex p-4 gap-5 w-[400px] sm:h-[250px] px-3 py-2 bg-[rgba(255,255,255,0.2)] absolute sm:right-[40px] sm:bottom-[250px] scale-90 sm:scale-100  bottom-[200px] rounded-2xl overflow-hidden'>
+    <div className='flex p-4 gap-5 w-[400px] sm:h-[250px] px-3 py-2 bg-[rgba(255,255,255,0.2)] sm:absolute sm:right-[40px] sm:bottom-[250px] scale-90 sm:scale-100  bottom-[200px] rounded-2xl overflow-hidden'>
 
       <div className='w-1/2 px-10 relative'>
         {/* Previous Image Fading Out */}
