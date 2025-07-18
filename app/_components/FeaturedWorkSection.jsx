@@ -2,19 +2,35 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState } from 'react'
 
-const categories = ['All', 'Weddings', 'Street', 'Fashion', 'Product']
+const categories = ['All', 'Weddings', 'Street', 'Fashion', 'Nature']
 
 const works = [
-  { id: 1, category: 'Weddings', img: '/founder.jpg' },
-  { id: 2, category: 'Street', img: '/founder.jpg' },
-  { id: 3, category: 'Fashion', img: '/founder.jpg' },
-  { id: 4, category: 'Product', img: '/founder.jpg' },
-  { id: 5, category: 'Weddings', img: '/founder.jpg' },
-  { id: 6, category: 'Street', img: '/founder.jpg' }
+  { id: 1, category: 'Weddings', img: '/wedding1.jpg' },
+  { id: 1, category: 'Weddings', img: '/wedding2.jpg' },
+  { id: 1, category: 'Weddings', img: '/wedding3.jpg' },
+  { id: 1, category: 'Weddings', img: '/wedding4.jpg' },
+  { id: 1, category: 'Weddings', img: '/wedding5.jpg' },
+  { id: 1, category: 'Weddings', img: '/wedding6.jpg' }, 
+  { id: 1, category: 'Street', img: '/street1.jpg' }, 
+  { id: 1, category: 'Street', img: '/street2.jpg' }, 
+  { id: 1, category: 'Street', img: '/street3.jpg' }, 
+  { id: 1, category: 'Street', img: '/street4.jpg' }, 
+  { id: 1, category: 'Street', img: '/street5.jpg' }, 
+  { id: 1, category: 'Street', img: '/street6.jpg' }, 
+  { id: 1, category: 'Fashion', img: '/fashion1.jpg' },   
+  { id: 1, category: 'Fashion', img: '/fashion2.jpg' },   
+  { id: 1, category: 'Fashion', img: '/fashion3.jpg' },   
+  { id: 1, category: 'Fashion', img: '/fashion4.jpg' },   
+  { id: 1, category: 'Fashion', img: '/fashion5.jpg' },      
+  { id: 1, category: 'Nature', img: '/nature1.jpg' },   
+  { id: 1, category: 'Nature', img: '/nature2.jpg' },   
+  { id: 1, category: 'Nature', img: '/nature3.jpg' },   
+  { id: 1, category: 'Nature', img: '/nature4.jpg' },   
+  { id: 1, category: 'Nature', img: '/nature5.jpg' },   
+  { id: 1, category: 'Nature', img: '/nature6.jpg' },   
 ]
-
 export default function FeaturedWorkSection() {
-  const [activeCategory, setActiveCategory] = useState('All')
+  const [activeCategory, setActiveCategory] = useState('Weddings')
 
   const filteredWorks =
     activeCategory === 'All'

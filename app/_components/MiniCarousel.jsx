@@ -5,10 +5,10 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
 const imageList = [
-  '/carousel1.png',
-  '/carousel2.png',
-  '/carousel3.png',
-  '/carousel4.png',
+  '/carousel1.jpg',
+  '/carousel2.jpg',
+  '/carousel3.jpg',
+  '/carousel4.jpg',
 ]
 
 export default function MiniCarousel() {

@@ -29,15 +29,15 @@ export default function AboutSection() {
           <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6 text-white">
             Who’s Behind the Lens?
           </h2>
-          <p className="text-gray-300 text-lg leading-relaxed">
-            I’m <span className="text-white font-semibold">Prakhar Sharma</span>, a Gen-Z creative with a deep love
-            for visual storytelling. Whether it's raw urban stories or cinematic
-            portraits, I turn real-life emotions into captivating art. 
-            <br />
-            <br />
-            Based in [Ayodhya], but always chasing light wherever it leads. Let's
-            co-create something unforgettable.
-          </p>
+         <p className="text-gray-300 text-lg leading-relaxed">
+  I’m <span className="text-white font-semibold">Ethan Brooks</span>, a Gen-Z creative with a deep love
+  for visual storytelling. Whether it's raw urban stories or cinematic
+  portraits, I turn real-life emotions into captivating art. 
+  <br />
+  <br />
+  Based in <span className="text-white font-medium">Austin, Texas</span>, but always chasing light wherever it leads. Let's
+  co-create something unforgettable.
+</p>
         </motion.div>
 
         {/* Right Visual */}

@@ -8,10 +8,10 @@ import HeroCard from './HeroCard'
 import AvataartCard from './AvataartCard'
 
 const images = [
-  { id: 1, src: '/bg1.png', alt: 'Wedding Shoot' },
-  { id: 2, src: '/bg2.png', alt: 'Maternity Shoot' },
-  { id: 3, src: '/bg3.png', alt: 'Baby Shoot' },
-  { id: 4, src: '/bg4.png', alt: 'Baby Shoot' }
+  { id: 1, src: '/bg1.jpg', alt: 'Wedding Shoot' },
+  { id: 2, src: '/bg2.jpg', alt: 'Maternity Shoot' },
+  { id: 3, src: '/bg3.jpg', alt: 'Baby Shoot' },
+  { id: 4, src: '/bg4.jpg', alt: 'Baby Shoot' }
 ]
 
 function Hero() {
@@ -23,6 +23,30 @@ function Hero() {
     }, 6000)
     return () => clearInterval(interval)
   }, [])
+
+
+  const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.9,
+    },
+  },
+};
+
+const childVariants = {
+  hidden: { opacity: 0, y: 20, filter: "blur(4px)" },
+  show: {
+    opacity: 1,
+    y: 0,
+    filter: "blur(0px)",
+    transition: {
+      duration: 0.8,
+      ease: "easeOut",
+    },
+  },
+};
 
   return (
     <div className='relative h-screen w-full overflow-hidden flex sm:flex-row flex-col sm:items-center sm:justify-between'>
@@ -54,11 +78,30 @@ function Hero() {
 
       {/* Content */}
       <div className='md:mt-0 mt-64 md:w-2/3 px-10 text-white z-20 drop-shadow-xl flex flex-col md:justify-center  sm:items-start items-center  gap-3'>
-        <p className='md:text-7xl text-2xl text-center sm:text-left uppercase font-bold'>Your Life. Our Lens. <br /> Eternal Stories.</p>
-        <p className='sm:text-2xl text-center sm:text-left'>We don&apos;t just take photos — we capture emotions.</p>
-        <button className='bg-white hidden sm:block sm:mt-8 text-sm sm:text-lg px-4 py-3 text-black rounded-full w-fit'>
+        <motion.div
+      variants={containerVariants}
+      initial="hidden"
+      animate="show"
+      className="mt-12"
+    >
+      <motion.p
+        variants={childVariants}
+        className="md:text-7xl text-2xl text-center sm:text-left uppercase font-bold"
+      >
+        Your Life. Our Lens. <br /> Eternal Stories.
+      </motion.p>
+
+      <motion.p
+        variants={childVariants}
+        className="sm:text-2xl text-center sm:text-left mt-4"
+      >
+        We don&apos;t just take photos — we capture emotions.
+      </motion.p>
+          <button className='bg-white hidden sm:block sm:mt-8 text-sm sm:text-lg px-4 py-3 text-black rounded-full w-fit'>
           Explore our works
         </button>
+    </motion.div>
+    
       </div>
 
       

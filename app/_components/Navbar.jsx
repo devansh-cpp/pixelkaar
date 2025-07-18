@@ -16,26 +16,20 @@ function Navbar() {
 
   return (
     <>
-      <div className='fixed top-0 left-0 w-full z-50 px-5 py-4'>
+      <div className=' fixed top-0 left-0 w-full z-50 px-5 py-4'>
         <div className='max-w-[1280px] mx-auto flex items-center justify-between bg-[rgba(255,255,255,0.1)] backdrop-blur-md rounded-full px-6 py-3'>
           {/* Logo */}
           <div className='w-[140px] sm:w-[180px]'>
-            <img
-              src="/logo.webp"
-              width={100}
-              height={100}
-              alt="Pixelkaar Logo"
-              className='w-full h-auto'
-            />
+             <h2 className='text-2xl font-bold'>Pixelora</h2>
           </div>
 
           {/* Desktop Menu */}
-          <div className='hidden lg:flex gap-5 text-white font-medium'>
-            <button>HOME</button>
-            <button>ABOUT US</button>
-            <button>SERVICES</button>
-            <button>OUR WORKS</button>
-            <button>TESTIMONIALS</button>
+          <div className='hidden  lg:flex gap-5 text-white font-medium'>
+            <button className='cursor-pointer border-2 border-transparent rounded-full px-6 mx-2 py-2 hover:border-white transition duration-150'>HOME</button>
+            <button className='cursor-pointer border-2 border-transparent rounded-full px-6 mx-2 py-2 hover:border-white transition duration-150'>ABOUT US</button>
+            <button className='cursor-pointer border-2 border-transparent rounded-full px-6 mx-2 py-2 hover:border-white transition duration-150'>SERVICES</button>
+            <button className='cursor-pointer border-2 border-transparent rounded-full px-6 mx-2 py-2 hover:border-white transition duration-150'>OUR WORKS</button>
+            <button className='cursor-pointer border-2 border-transparent rounded-full px-6 mx-2 py-2 hover:border-white transition duration-150'>TESTIMONIALS</button>
           </div>
 
           {/* Contact Button (Desktop) */}
