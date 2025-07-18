@@ -28,13 +28,7 @@ export default function Footer() {
           transition={{ delay: 0.1 }}
         >
         <div className='w-[350px] sm:w-[300px]'>
-                    <img
-                      src="/logo.webp"
-                      width={100}
-                      height={100}
-                      alt="Pixelkaar Logo"
-                      className='w-full h-auto'
-                    />
+                      <h2 className='text-2xl font-bold'>Pixelora</h2>
                   </div>
           <p className="text-gray-400 sm:mt-6 mt-12 text-lg font-light">
             Cinematic storytelling for the bold. Freeze time with flair.
@@ -51,19 +45,19 @@ export default function Footer() {
           <h2 className="text-2xl font-semibold mb-3">Connect</h2>
           <div className="flex items-center gap-3 text-gray-300 hover:text-white transition">
             <Mail size={20} />
-            <a href="mailto:hello@pixelkaar.in" className="text-lg">pixelkaar.in</a>
+            <a href="mailto:hello@pixelkaar.in" className="text-lg">sudoweb.in</a>
           </div>
           <div className="flex items-center gap-3 text-gray-300 hover:text-white transition">
             <Phone size={20} />
-            <a href="tel:+918888888888" className="text-lg">+91 91255 63079</a>
+            <a href="tel:+918888888888" className="text-lg">9876543212</a>
           </div>
           <div className="flex items-center gap-3 text-gray-300">
             <MapPin size={20} />
-            <p className="text-lg">Ayodhya,Uttar Pradesh,India</p>
+            <p className="text-lg">California,USA</p>
           </div>
           <div className="flex gap-4 pt-4">
             <motion.a
-              href="https://instagram.com/pixelkaar"
+              href="https://instagram.com/sudo_web"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -71,7 +65,7 @@ export default function Footer() {
             >
               <Instagram size={24} />
             </motion.a>
-            Pixelkaar
+            Sudo Web
           </div>
         </motion.div>
 
@@ -104,7 +98,7 @@ export default function Footer() {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        © {new Date().getFullYear()} Pixelkaar — Made with Light & Shadow.
+        © {new Date().getFullYear()} Pixelora — Made with Light & Shadow.
         <a href="https://www.sudoweb.in">Sudoweb.in Created with 💘</a>
       </motion.div>
     </footer>

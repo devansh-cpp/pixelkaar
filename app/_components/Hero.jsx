@@ -77,7 +77,7 @@ const childVariants = {
       </div>
 
       {/* Content */}
-      <div className='md:mt-0 mt-64 md:w-2/3 px-10 text-white z-20 drop-shadow-xl flex flex-col md:justify-center  sm:items-start items-center  gap-3'>
+      <div className='md:mt-0 mt-36 sm:mt-64 md:w-2/3 px-10 text-white z-20 drop-shadow-xl flex flex-col md:justify-center  sm:items-start items-center  gap-3'>
         <motion.div
       variants={containerVariants}
       initial="hidden"
